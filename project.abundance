@@ -1,13 +1,308 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "PROJECT_SKY_SPIDER",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "PROJECT_SKY_SPIDER",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2583603020496224,
+      "y": 0.3002309468822171,
+      "uniqueID": "id-8",
+      "name": "Sled",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-10",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.036138079827400214,
+          "y": 0.17551963048498845,
+          "uniqueID": "id-54",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 600,
+              "currentEquation": "600"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.035059331175836025,
+          "y": 0.3163972286374134,
+          "uniqueID": "id-57",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 200,
+              "currentEquation": "200"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.0372168284789644,
+          "y": 0.4849884526558892,
+          "uniqueID": "id-60",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 20,
+              "currentEquation": "20"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2669902912621359,
+      "y": 0.4688221709006928,
+      "uniqueID": "id-12",
+      "name": "Router",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-14",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.29449838187702265,
+      "y": 0.6374133949191686,
+      "uniqueID": "id-16",
+      "name": "Arm assembly",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-18",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.3069039913700108,
+      "y": 0.8106235565819861,
+      "uniqueID": "id-33",
+      "name": "Plywood Sheet",
+      "ioValues": [
+        {
+          "name": "Thickness",
+          "ioValue": 18
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-27",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.12764550264550265,
+          "y": 0.3203342618384401,
+          "uniqueID": "id-28",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 2438.3999999999996,
+              "currentEquation": "96*25.4"
+            },
+            {
+              "name": "y length",
+              "ioValue": 1219.1999999999998,
+              "currentEquation": "48*25.4"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2757936507936508,
+          "y": 0.2924791086350975,
+          "uniqueID": "id-29",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 18
+            }
+          ]
+        },
+        {
+          "atomType": "Color",
+          "x": 0.4027777777777778,
+          "y": 0.2256267409470752,
+          "uniqueID": "id-30",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "selectedColor": "Tan"
+        },
+        {
+          "atomType": "Add-BOM-Tag",
+          "x": 0.6031746031746031,
+          "y": 0.5598885793871866,
+          "uniqueID": "id-31",
+          "name": "Add BOM Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Item Name",
+              "ioValue": "New Item",
+              "currentEquation": "New Item"
+            },
+            {
+              "name": "Number Needed",
+              "ioValue": 1
+            },
+            {
+              "name": "Cost (USD)",
+              "ioValue": 0
+            },
+            {
+              "name": "Source Link",
+              "ioValue": ""
+            }
+          ],
+          "BOMitem": {
+            "BOMitemName": "New Item",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": ""
+          }
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-32",
+          "name": "Thickness",
+          "type": "number"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-28",
+          "ap2ID": "id-29"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-29",
+          "ap2ID": "id-30"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-30",
+          "ap2ID": "id-31"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-31",
+          "ap2ID": "id-27"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-32",
+          "ap2ID": "id-29"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-03-04T02:23:39.198Z",
+        "privateRepo": false,
+        "repoName": "Plywood-Sheet",
+        "dateCreated": "2025-09-19T23:39:33Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Plywood-Sheet/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "869d0ab8-6594-4dc7-b527-feade96f3902",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Plywood-Sheet",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739513",
+        "ranking": 1.8,
+        "searchField": "plywood-sheet barboursmith  ",
+        "owner": "BarbourSmith",
+        "description": "",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Plywood-Sheet/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Plywood-Sheet/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
