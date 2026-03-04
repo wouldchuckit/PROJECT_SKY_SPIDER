@@ -2191,6 +2191,97 @@
               "y": 0.18013856812933027,
               "uniqueID": "id-490",
               "name": "TotalArmLenght"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.41423948220064727,
+              "y": 0.5334872979214781,
+              "uniqueID": "id-493",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 2
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 8,
+                  "currentEquation": "8"
+                }
+              ]
+            },
+            {
+              "atomType": "Constant",
+              "x": 0.04099244875943905,
+              "y": 0.3579676674364896,
+              "uniqueID": "id-497",
+              "name": "RopeLoop",
+              "value": 10
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.1645091693635383,
+              "y": 0.3856812933025404,
+              "uniqueID": "id-499",
+              "name": "beltEnd",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-501",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.04962243797195254,
+                  "y": 0.23787528868360275,
+                  "uniqueID": "id-503",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 14,
+                      "currentEquation": "14"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.04800431499460626,
+                  "y": 0.3741339491916859,
+                  "uniqueID": "id-506",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 10
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 10
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.0889967637540453,
+                  "y": 0.6027713625866051,
+                  "uniqueID": "id-510",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 10,
+                      "currentEquation": "10"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [],
