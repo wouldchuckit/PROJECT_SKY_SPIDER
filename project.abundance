@@ -2641,8 +2641,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.09099244875943904,
-          "y": 0.66824480369515,
+          "x": 0.07874865156418555,
+          "y": 0.5981524249422633,
           "uniqueID": "id-1211",
           "name": "armbody + belt",
           "ioValues": [
@@ -2652,21 +2652,21 @@
             },
             {
               "name": "belt",
-              "ioValue": 1
+              "ioValue": 500
             }
           ],
           "currentEquation": "armbody + belt"
         },
         {
           "atomType": "Equation",
-          "x": 0.08128371089536138,
-          "y": 0.8229792147806003,
+          "x": 0.08090614886731393,
+          "y": 0.7205542725173211,
           "uniqueID": "id-1212",
           "name": "x + endbody",
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 101
+              "ioValue": 600
             },
             {
               "name": "endbody",
@@ -2677,16 +2677,16 @@
         },
         {
           "atomType": "Constant",
-          "x": 0.08236245954692557,
-          "y": 0.5435334872979214,
+          "x": 0.07605177993527508,
+          "y": 0.4665127020785219,
           "uniqueID": "id-1213",
           "name": "armbody",
           "value": 100
         },
         {
           "atomType": "Constant",
-          "x": 0.08829557713052859,
-          "y": 0.43036951501154735,
+          "x": 0.0744336569579288,
+          "y": 0.3279445727482679,
           "uniqueID": "id-1214",
           "name": "endbody",
           "value": 20
@@ -2728,6 +2728,10 @@
             {
               "name": "Shape 2",
               "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
             }
           ]
         },
@@ -2743,7 +2747,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 620
             },
             {
               "name": "yDist",
@@ -3436,6 +3440,11 @@
           "ap2ID": "id-1212"
         },
         {
+          "ap2Name": "xDist",
+          "ap1ID": "id-1212",
+          "ap2ID": "id-1243"
+        },
+        {
           "ap2Name": "armbody",
           "ap1ID": "id-1213",
           "ap2ID": "id-1211"
@@ -3448,6 +3457,11 @@
         {
           "ap2Name": "Shape 2",
           "ap1ID": "id-1241",
+          "ap2ID": "id-1242"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1243",
           "ap2ID": "id-1242"
         },
         {
