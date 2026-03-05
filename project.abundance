@@ -60,8 +60,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7459546925566344,
-      "y": 0.36027713625866054,
+      "x": 0.8495145631067962,
+      "y": 0.20323325635103925,
       "uniqueID": "id-357",
       "ioValues": [
         {
@@ -2072,6 +2072,10 @@
       "ioValues": [
         {
           "name": "TotalArmLenght",
+          "ioValue": 0
+        },
+        {
+          "name": "Input",
           "ioValue": 10
         }
       ],
@@ -2731,6 +2735,10 @@
             },
             {
               "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
               "ioValue": null
             }
           ]
@@ -3416,9 +3424,90 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-1371"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.37162891046386193,
+          "y": 0.8221709006928407,
+          "uniqueID": "id-1381",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 620
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5550161812297735,
+          "y": 0.45727482678983833,
+          "uniqueID": "id-1388",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 230,
+              "currentEquation": "230"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.6192017259978425,
+          "y": 0.5173210161662818,
+          "uniqueID": "id-1394",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1098",
+          "ap2ID": "id-1381"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-1098",
+          "ap2ID": "id-1394"
+        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-1208",
@@ -3445,6 +3534,11 @@
           "ap2ID": "id-1243"
         },
         {
+          "ap2Name": "xDist",
+          "ap1ID": "id-1212",
+          "ap2ID": "id-1381"
+        },
+        {
           "ap2Name": "armbody",
           "ap1ID": "id-1213",
           "ap2ID": "id-1211"
@@ -3460,6 +3554,11 @@
           "ap2ID": "id-1242"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1242",
+          "ap2ID": "id-1388"
+        },
+        {
           "ap2Name": "Shape 3",
           "ap1ID": "id-1243",
           "ap2ID": "id-1242"
@@ -3473,6 +3572,21 @@
           "ap2Name": "geometry",
           "ap1ID": "id-1229",
           "ap2ID": "id-1243"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-1381",
+          "ap2ID": "id-1242"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-1388",
+          "ap2ID": "id-1394"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1394",
+          "ap2ID": "id-18"
         }
       ],
       "fileTypeVersion": 1
