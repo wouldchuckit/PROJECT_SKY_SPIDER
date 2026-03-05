@@ -4303,8 +4303,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.8878101402373247,
-      "y": 0.4295612009237875,
+      "x": 0.9255663430420712,
+      "y": 0.18013856812933027,
       "uniqueID": "id-1555",
       "name": "README",
       "ioValues": [
@@ -4313,7 +4313,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Readme text here",
+      "readMeText": "Project Sky Spider is just for fun.  I do not recommend doing this with a maslow. Mostly playing with Abundance.",
       "global": true
     }
   ],

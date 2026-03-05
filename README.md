@@ -6,7 +6,7 @@
 
 
 
- Readme text here 
+ Project Sky Spider is just for fun.  I do not recommend doing this with a maslow. Mostly playing with Abundance. 
 
 ![readme](/readmeid-1555.svg?v=aafndx)
 
